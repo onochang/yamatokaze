@@ -11,7 +11,6 @@ $(function () {
         breakpoint: 599,
         settings: {
           slidesToShow: 1,
-          variableWidth: true,
         },
       },
     ],
