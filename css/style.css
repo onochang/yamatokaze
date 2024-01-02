@@ -222,6 +222,7 @@ body {
     padding-top: 90px;
 }
 
+
 .footer .contents-area {
     display: flex;
     justify-content: space-between;
@@ -238,13 +239,18 @@ body {
 .footer-nav ul {
     display: flex;
     column-gap: 30px;
-
+    
 }
 
 .footer-sns p {
     margin-bottom: 16px;
     font-weight: 500;
     text-align: center;
+}
+
+.footer-sns i {
+    color: #111111;
+    font-size: 20px;
 }
 
 .footer-sns ul {
@@ -310,7 +316,7 @@ body {
     }
 
     .logo {
-        top: 24px;
+        top: 50%;
         font-size: 24px;
     }
 
@@ -392,10 +398,15 @@ body {
         flex-flow: column;
     }
 
+    .footer {
+        padding-top: 64px;
+    }
+
     .footer .contents-area {
         align-items: center;
         flex-flow: column;
         width: calc(100% - 30px);
+        padding-bottom: 64px;
     }
 
     .footer-logo {
@@ -405,6 +416,10 @@ body {
     .footer-nav {
         margin-bottom: 64px;
         text-align: center;
+    }
+
+    .footer-nav li {
+        font-size: 14px;
     }
 
     .footer-sns p {
