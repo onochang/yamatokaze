@@ -19,8 +19,6 @@
 
     <!-- Reset CSS - destyle.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@4.0.0/destyle.min.css">
-    <!-- drawer.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
     <!-- slick.css -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -29,34 +27,39 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- iScroll.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-    <!-- drawer.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
     <!-- slick.js -->
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- fadeThis.js -->
     <script src="js/jquery.fadethis.min.js"></script>
     <script src="js/slick.min.js"></script>
 
-    <script src="js/main.js"></script>
 </head>
 
-<body class="drawer drawer--left">
-    <header>
-        <button type="button" class="drawer-toggle drawer-hamburger">
-            <span class="drawer-hamburger-icon"></span>
-        </button>
-        <nav class="drawer-nav">
-            <ul class="drawer-menu">
-                <li><a class="drawer-brand" href="#">Yama To Kaze</a></li>
-                <li><a class="drawer-menu-item" href="#news">ニュース</a></li>
-                <li><a class="drawer-menu-item" href="#concept">コンセプト</a></li>
-                <li><a class="drawer-menu-item" href="#experience">体験</a></li>
-                <li><a class="drawer-menu-item" href="#product">商品</a></li>
-            </ul>
-        </nav>
+<body>
+    <header class="header">
+        <div class="hum-menu" id="open">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <div class="drawer" id="drawer">
+            <nav class="drawer-nav">
+                <ul class="drawer-menu">
+                    <li><a class="drawer-brand" href="#">Yama To Kaze</a></li>
+                    <li><a class="drawer-menu-item" href="#news">ニュース</a></li>
+                    <li><a class="drawer-menu-item" href="#concept">コンセプト</a></li>
+                    <li><a class="drawer-menu-item" href="#experience">体験</a></li>
+                    <li><a class="drawer-menu-item" href="#product">商品</a></li>
+                </ul>
+            </nav>   
+            <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
     </header>
+    
+    
+
+
     <main>
         <div id="mv">
             <h1 class="logo">Yama To Kaze</h1>
@@ -217,6 +220,8 @@
             <p>Copyright Yama To Kaze. all rights reserved.</p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
