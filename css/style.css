@@ -26,6 +26,30 @@ body {
     margin: 0 auto;
 }
 
+.btn{
+    position: relative;
+    height: 48px;
+    width: 240px;
+    margin: 0 auto;
+    background-color: #111111;
+}
+
+.btn a{
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    color: #FFF;
+    font-family: "Noto Sans JP";
+}
+
+.btn i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #FFF;
+}
+
 .drawer-hamburger {
     width: 40px;
     padding: 0;
@@ -78,6 +102,7 @@ body {
 .news-contents {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 .news-contents .section-headline {
@@ -346,6 +371,7 @@ body {
 
     .news-contents {
         flex-flow: column;
+        margin-bottom: 48px;
     }
 
     .news-list {
