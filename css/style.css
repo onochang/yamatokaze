@@ -404,6 +404,7 @@ body {
     }
 
     .drawer {
+        width: 70vw;
         padding: 24px 15px;
     }
 
