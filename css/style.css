@@ -148,6 +148,10 @@ body {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
 }
 
+#concept .contents-area{
+    position: relative;
+}
+
 #concept .section-headline {
     margin-bottom: 140px;
 }
